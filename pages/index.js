@@ -40,7 +40,7 @@ export default function Home() {
           <ul>
             { data.map((item, index) => (
               <li className="border w-full px-2 py-1 mb-4" key={item.id}>
-                <a href={item.history} target="_blank" className="flex w-full">{ item.history }</a>
+                <a href={item.history} target="_blank" rel="noreferrer" className="flex w-full">{ item.history }</a>
               </li>
             ))}
             
